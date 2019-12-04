@@ -1,0 +1,75 @@
+:root {
+    --main-color: black;
+}
+
+body {
+    max-width: 980px;
+    margin: auto;
+}
+
+header .logo {
+    font-size: 3rem;
+    text-align: center;
+    margin: 1rem 0;
+    color: var(--main-color);
+}
+
+header nav .menu{
+    display: flex;
+    padding: 0;
+    list-style: none;
+    justify-content: space-around;
+}
+
+header nav .menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--main-color);
+    border: 1px solid transparent;
+    padding: 5px;
+}
+
+header nav .menu a:hover {
+    border: 1px solid var(--main-color);
+}
+
+@media (min-width: 600px) {
+    header nav {
+        display: flex;
+        align-items: center;
+    }
+
+    header nav {
+        flex: 1;
+    }
+}
+
+header .banner {
+    background-image: url(../img/yaga19.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header .banner h2 {
+    font-size: 5rem;
+}
+
+header .button {
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #ffffff;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    transition: all 0.3s;
+    background-color: transparent;
+}
