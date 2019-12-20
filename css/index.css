@@ -73,3 +73,35 @@ header .button {
     transition: all 0.3s;
     background-color: transparent;
 }
+  main .logo {
+    font-size: 3rem;
+    text-align: center;
+    margin: 1rem 0;
+    color: var(--main-color);
+ }
+ 
+   main .productList .productCard img {
+     width: 100%;
+     display: block;
+ }
+@media (min-width: 500px) {
+    .productList {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px;
+    }
+}
+@media (min-width: 700px) {
+    .productList {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 5px;
+    }
+}
+@media (min-width: 800px) {
+    .productList {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 5px;
+    }
+}
