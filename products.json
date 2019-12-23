@@ -1,0 +1,132 @@
+[
+    {
+        "id": "1",
+        "title": "Yaga 10",
+        "imgSource": "img/yaga11.jpg",
+        "description": "Yaga 10 description",
+        "minDistance": 10,
+        "maxDistance": 30,
+        "category": "External_Antennas",
+        "price": 20.5
+    },
+    {
+        "id": "2",
+        "title": "Yaga 11",
+        "imgSource": "img/yaga11.jpg",
+        "description": "Yaga 11 description",
+        "minDistance": 15,
+        "maxDistance": 30,
+        "category": "External_Antennas",
+        "price": 40.5
+    },
+    {
+        "id": "3",
+        "title": "Yaga 17",
+        "description": "Yaga 17 description",
+        "imgSource": "img/yaga19.png",
+        "minDistance": 15,
+        "maxDistance": 30,
+        "category": "External_Antennas",
+        "price": 30.5
+    },
+    {
+        "id": "4",
+        "title": "Yaga 19",
+        "description": "Yaga 19 description",
+        "imgSource": "img/yaga19.png",
+        "minDistance": 15,
+        "maxDistance": 30,
+        "category": "External_Antennas",
+        "price": 20.5
+    },
+    {
+        "id": "5",
+        "title": "M-5",
+        "description": "M-5 description",
+        "imgSource": "img/home-m5.jpg",
+        "minDistance": 15,
+        "maxDistance": 30,
+        "category": "Internal_Antennas",
+        "price": 25
+    },
+    {
+        "id": "6",
+        "title": "M-7",
+        "description": "M-7 description",
+        "imgSource": "img/home-m5.jpg",
+        "minDistance": 15,
+        "maxDistance": 30,
+        "category": "Internal_Antennas",
+        "price": 40
+    },
+    {
+        "id": "7",
+        "title": "Provest113",
+        "description": "Provest113 description",
+        "imgSource": "img/home113.jpg",
+        "minDistance": 15,
+        "maxDistance": 30,
+        "category": "Internal_Antennas",
+        "price": 15
+    },
+    {
+        "id": "8",
+        "title": "Provest115",
+        "description": "Provest115 description",
+        "imgSource": "img/home113.jpg",
+        "minDistance": 15,
+        "maxDistance": 30,
+        "category": "Internal_Antennas",
+        "price": 18
+    },
+    {
+        "id": "9",
+        "title": "Eurosky18",
+        "description": "Eurosky18 description",
+        "imgSource": "img/tyner-eu-18.jpg",
+        "minDistance": 15,
+        "maxDistance": 30,
+        "category": "tuner",
+        "price": 25
+    },
+    {
+        "id": "10",
+        "title": "Eurosky20",
+        "description": "Eurosky20 description",
+        "imgSource": "img/tyner-eu-18.jpg",
+        "minDistance": 15,
+        "maxDistance": 30,
+        "category": "tuner",
+        "price": 25
+    },
+    {
+        "id": "11",
+        "title": "Word vision T-62",
+        "description": "Word vision T-62 description",
+        "imgSource": "img/tyner-t-62.jpg",
+        "minDistance": 15,
+        "maxDistance": 30,
+        "category": "tuner",
+        "price": 30.6
+    },
+    {
+        "id": "12",
+        "title": "Word vision T-65",
+        "description": "Word vision T-65 description",
+        "imgSource": "img/tyner-t-62.jpg",
+        "minDistance": 15,
+        "maxDistance": 30,
+        "category": "tuner",
+        "price": 20.5
+    },
+    {
+        "id": "13",
+        "title": "Pidsulyva4 1",
+        "description": "Pidsulyva4 1 description",
+        "imgSource": "",
+        "minDistance": 15,
+        "maxDistance": 30,
+        "category": "amplifier",
+        "price": 15
+    }
+]

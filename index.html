@@ -6,16 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Моє Т-2</title>
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script defer src="js/product-list.js"></script>
+    <script defer src="js/cart.js"></script>
+    <script defer src="js/index.js">
+    </script>
 </head>
 <body>
    <header>
        <nav>
            <h1 class="logo">Моє Т-2</h1>
            <ul class="menu">
-               <li><a href="#">Зовнішні Антени</a></li>
-               <li><a href="#">Кімнатні Антени</a></li>
-               <li><a href="#">Тюнера Т-2</a></li>
-               <li><a href="#">Підсилювачі</a></li>
+               <li><a href="#externalAntennas">Зовнішні&nbsp;Антени</a></li>
+               <li><a href="#internalAntennas">Кімнатні&nbsp;Антени</a></li>
+               <li><a href="#tuner">Тюнера&nbsp;Т-2</a></li>
+               <li><a href="#amplifier">Підсилювачі</a></li>
            </ul>
        </nav> 
        <section class="banner">
@@ -24,107 +31,19 @@
        </section>
    </header>
    <main>
-       <h2 class="logo">Зовнішні Антени</h2>
-       <section class="productList">
-           <section class="productCard">
-               <h3 lang="en">Yaga19</h3>
-               <img src="img/yaga19.png" alt="yaga19">
-               <ul>
-                   <li>К-ть елементів:(19)</li>
-                   <li>Відстань:(50-100)км</li>
-               </ul>
-               <button>Купити</button>
-           </section>
-           <section class="productCard">
-               <h3 lang="en">Yaga17</h3>
-               <img src="img/yaga19.png" alt="yaga17">
-               <ul>
-                   <li>К-ть елементів:(17)</li>
-                   <li>Відстань:(40-70)км</li>
-               </ul>
-               <button>Купити</button>
-           </section>
-            <section class="productCard">
-               <h3 lang="en">Yaga11</h3>
-               <img src="img/yaga11.jpg" alt="yaga11">
-               <ul>
-                   <li>К-ть елементів:(11)</li>
-                   <li>Відстань:(30-50)км</li>
-               </ul>
-               <button>Купити</button>
-           </section>
-            <section class="productCard">
-               <h3 lang="en">Yaga10</h3>
-               <img src="img/yaga11.jpg" alt="yaga10">
-               <ul>
-                   <li>К-ть елементів:(10)</li>
-                   <li>Відстань:(20-40)км</li>
-               </ul>
-               <button>Купити</button>
-           </section>
-      </section>
-      <h2 class="logo">Кімнатні Антени</h2>
-       <section class="productList">
-           <section class="productCard">
-               <h3 lang="en">M-5</h3>
-               <img src="img/home-m5.jpg" alt="home-m5">
-               <ul>
-                   <li>К-ть елементів:(5)</li>
-                   <li>Відстань:(0-10)км</li>
-               </ul>
-               <button>Купити</button>
-           </section>
-           <section class="productCard">
-               <h3 lang="en">M-7</h3>
-               <img src="img/home-m5.jpg" alt="home-m7">
-               <ul>
-                   <li>К-ть елементів:(7)</li>
-                   <li>Відстань:(3-15)км</li>
-               </ul>
-               <button>Купити</button>
-           </section>
-            <section class="productCard">
-               <h3 lang="en">Provest113</h3>
-               <img src="img/home113.jpg" alt="Provest home113">
-               <ul>
-                   <li>К-ть елементів:(--)</li>
-                   <li>Відстань:(0-15)км</li>
-               </ul>
-               <button>Купити</button>
-           </section>
-            <section class="productCard">
-               <h3 lang="en">Provest115</h3>
-               <img src="img/home113.jpg" alt="Provesr home115">
-               <ul>
-                   <li>К-ть елементів:(--)</li>
-                   <li>Відстань:(5-17)км</li>
-               </ul>
-               <button>Купити</button>
-           </section>
-      </section>
-       <h2 class="logo">Тюнера Т-2</h2>
-       <section class="productList">
-           <section class="productCard">
-               <h3 lang="en">Eurosky18</h3>
-               <img src="img/tyner-eu-18.jpg" alt="tyner-eu-18">
-               <button>Купити</button>
-           </section>
-           <section class="productCard">
-               <h3 lang="en">Eurosky20</h3>
-               <img src="img/tyner-eu-18.jpg" alt="tyner-eu-20">
-               <button>Купити</button>
-           </section>
-            <section class="productCard">
-               <h3 lang="en">Word vision T-62</h3>
-               <img src="img/tyner-t-62.jpg" alt="tyner-t-62">
-               <button>Купити</button>
-           </section>
-            <section class="productCard">
-               <h3 lang="en">Word vision T-65</h3>
-               <img src="img/tyner-t-62.jpg" alt="tyner-t-65">
-               <button>Купити</button>
-           </section>
-      </section>
+        <h2 class="logo" id="externalAntennas">Зовнішні Антени</h2>
+        <section class="productList" id="externalAntennas-items"></section>
+        <h2 class="logo" id="internalAntennas">Кімнатні Антени</h2>
+        <section class="productList" id="internalAntennas-items"></section>
+        <h2 class="logo" id="tuner">Тюнера Т-2</h2>
+        <section class="productList" id="tuner-items"></section>
+        <h2 class="logo" id="amplifier">Підсилювачі</h2>
+        <section class="productList" id="amplifier-items"></section>
    </main>
+
+   <div class="footer">
+        <div class="cart">Show cart</div>
+        <div id="cart-window" ></div>
+   </div>
 </body>
 </html>
