@@ -121,9 +121,39 @@
     },
     {
         "id": "13",
-        "title": "Pidsulyva4 1",
-        "description": "Pidsulyva4 1 description",
-        "imgSource": "",
+        "title": "Pidsulyvach 16",
+        "description": "Pidsulyva4 16 description",
+        "imgSource": "img/anprel-16.jpg",
+        "minDistance": 15,
+        "maxDistance": 30,
+        "category": "amplifier",
+        "price": 15
+    },
+    {
+        "id": "14",
+        "title": "Pidsulyvach 0-9999",
+        "description": "Pidsulyva4 0=9999 description",
+        "imgSource": "img/anprel-0-9999.jpg",
+        "minDistance": 15,
+        "maxDistance": 30,
+        "category": "amplifier",
+        "price": 15
+    },
+    {
+        "id": "15",
+        "title": "Pidsulyvach 9999",
+        "description": "Pidsulyva4 9999 description",
+        "imgSource": "img/anprel-9999.jpg",
+        "minDistance": 15,
+        "maxDistance": 30,
+        "category": "amplifier",
+        "price": 15
+    },
+    {
+        "id": "16",
+        "title": "Pidsulyvach 0-69",
+        "description": "Pidsulyva4 0-69 description",
+        "imgSource": "img/anprel-0-69.jpg",
         "minDistance": 15,
         "maxDistance": 30,
         "category": "amplifier",
